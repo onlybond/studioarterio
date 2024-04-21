@@ -71,7 +71,6 @@ const ImageGallery = () => {
       const transformOriginX = progressRatio * 100; // Calculate the X coordinate for transform origin
     
       // Set transform origin to start from left and remain fixed
-      bar.style.transformOrigin = `${transformOriginX}% 50%`;
       bar.style.transform = `scaleX(${scale})`;
     };
     
@@ -191,8 +190,8 @@ const ImageGallery = () => {
           </figure>
         </div>
       </div>
-      <div className="slider-progress fixed bottom-0 left-0 w-[80vw] sm:w-[20vw] h-[2px] m-8 bg-[rgba(0,0,0,0.2)]">
-        <div className="slider-progress-bar absolute w-full h-full bg-[rgba(0,0,0,0.8)] scale-x-0 origin-[0 0]"></div>
+      <div className="slider-progress fixed bottom-0 left-1/2 -translate-x-1/2 w-[80vw] sm:w-[20vw] h-[2px] m-8 bg-[rgba(227,115,93,0.2)]">
+        <div className="slider-progress-bar absolute w-full h-full bg-[rgba(227,115,93,0.8)] scale-x-0 origin-[0 0]"></div>
       </div>
     </div>
     </div>

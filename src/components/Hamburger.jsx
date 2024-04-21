@@ -30,9 +30,9 @@ const Hamburger = () => {
 
   return (
     <div ref={hambmenu} className={`hamburger-menu overflow-hidden ${toggleMenu ? 'active' : ''}`}>
-      <div className="hamburger flex flex-col justify-center gap-1 h-12 w-12">
-        <div className="bar w-8 h-[1px] bg-black"></div>
-        <div className="bar w-8 h-[1px] bg-black"></div>
+      <div className="hamburger flex flex-col justify-center gap-[5px] sm:gap-1 h-12 w-12">
+        <div className="bar w-10 h-[2px] sm:w-12 sm:h-[2px] bg-[rgb(227,115,93)]"></div>
+        <div className="bar w-10 h-[2px] sm:w-12 sm:h-[2px] bg-[rgb(227,115,93)]"></div>
       </div>
     </div>
   );

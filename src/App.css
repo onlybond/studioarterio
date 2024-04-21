@@ -6,7 +6,3 @@
   font-family: "NeueKabel";
   src: url("https://db.onlinewebfonts.com/t/02408ccd8efcf169db4e41d6e0551118.ttf")format("truetype"),
 }
-
-.loading{
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}

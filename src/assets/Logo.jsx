@@ -6,21 +6,25 @@ const Logo = () => {
   const svg = useRef(null);
   useGSAP(
     () => {
-      const tl = gsap.timeline();
-      tl.set(svg, {
+      const tl = gsap.timeline(); 
+      tl.set('.cls-1',{
         css:{
+          stroke: "#fff",
+          strokeWidth:1.5,
           strokeDasharray:"1100",
-          strokeDashoffset:"0",
-          strokeWidth:"1"
-        },
-      });
-      tl.to(svg, {
-        css:{
-          strokeDashoffset:"1100",
-        },
-        ease: "power2.inOut",
-      });
-    }
+          strokeDashoffset:"1100"
+        }
+      }).to(
+        '.cls-1',{
+          css:{
+            strokeDashoffset:0
+          },
+          duration:1.5,
+          ease:"power2.inOut"
+        }
+      )
+    },
+    {scope:svg}
   )
 
   return (
@@ -29,7 +33,7 @@ const Logo = () => {
         data-name="Layer 2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 287.45 287.45"
-        className="w-40 h-40 fill-white"
+        className="svglogo w-40 h-40 fill-white"
         ref={svg}
       >
         <defs>

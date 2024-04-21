@@ -2,6 +2,19 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.45 287.45">
   <defs>
     <style>
+      .cls-1{
+        fill:none;
+        stroke-width: 1.5;
+        stroke:#fff;
+        stroke-dasharray: 1100;
+        stroke-dashoffset: 1100;
+        animation: animate 2s ease-in-out forwards ;
+      }
+      @keyframes animate{
+        to{
+          stroke-dashoffset: 0;
+        }
+
     </style>
   </defs>
   <g id="Layer_2-2" data-name="Layer 2">

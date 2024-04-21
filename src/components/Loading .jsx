@@ -3,6 +3,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import logo from "../assets/logo.svg";
+import Logo from "../assets/Logo";
 const Loading = () => {
   const containerRef = useRef();
 
@@ -18,11 +19,11 @@ const Loading = () => {
 
   return (
     <div
-      className="loading w-screen h-screen bg-black flex items-center justify-center"
+      className="loading w-screen h-screen bg-black flex items-center justify-center z-50"
       ref={containerRef}
       style={{ position: "absolute", bottom: 0 }}
     >
-      <img src={logo} alt="" className="w-40 h-40"  />
+      <Logo  className="w-40 h-40"  />
     </div>
   );
 };

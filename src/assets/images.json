@@ -1,0 +1,15 @@
+
+{
+  "images": [
+    { "filename": "img1.jpeg", "path": "../assets/img1.jpeg" },
+    { "filename": "img2.jpeg", "path": "../assets/img2.jpeg" },
+    { "filename": "img3.jpeg", "path": "../assets/img3.jpeg" },
+    
+    { "filename": "img4.jpeg", "path": "../assets/img4.jpeg" },
+    
+    { "filename": "img5.jpeg", "path": "../assets/img5.jpeg" },
+    
+    { "filename": "img6.jpeg", "path": "../assets/img6.jpeg" },
+    { "filename": "img7.jpeg", "path": "../assets/img7.jpeg" }   
+  ]
+}

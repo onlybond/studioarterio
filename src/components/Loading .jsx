@@ -22,7 +22,7 @@ const Loading = () => {
 
   return (
     <div
-      className="loading w-screen h-screen flex-col bg-black flex items-center justify-center z-50"
+      className="loading sticky w-screen h-screen flex-col bg-black flex items-center justify-center z-50"
       ref={containerRef}
       style={{ position: "absolute", bottom: 0 }}
     >

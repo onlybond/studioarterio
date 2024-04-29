@@ -6,3 +6,14 @@
   font-family: "NeueKabel";
   src: url("https://db.onlinewebfonts.com/t/02408ccd8efcf169db4e41d6e0551118.ttf")format("truetype"),
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'NeueKabel';
+}
